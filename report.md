@@ -14,15 +14,29 @@ Categorical variables were encoded using the **get_dummies()** method after conf
 
 ### Compile, Train and Evaluate the Model
 
-Each model, after applying neural networks, consisted of a total of three layers. 
+Each model, after applying neural networks, consisted of a total of three layers.
 The number of hidden nodes was determined by the number of features.
 
 ![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/a85ad66c-ef8b-48c0-9797-f572e358c8bc)
 
-A three-layer training model generated 477 parameters. 
+A three-layer training model generated 477 parameters.
 The initial attempt achieved slightly over 73% accuracy, which fell slightly short of the desired 75% but was still fairly close.
 
 ![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/dfb85cf4-f008-4f77-b63e-b3c6195c8f23)
 
 ### Optimize the Model
+
+In the second attempt, incorporating the **"NAME"** column in the dataset, we achieved an accuracy rate of nearly 79%.
+This surpassed the target of 75% by 4%, and the model utilized 3,298 parameters.
+
+![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/e868dba8-8216-4d55-ac20-26e8c0ad8232)
+
+Deep learning models should employ multiple layers because they enable the model to learn the process of prediction and classification by progressively refining and filtering input information through these layers.
+
+![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/d65e60f5-89b3-4a47-bf9d-4647a6ff0e21)
+
+
+
+
+
 
