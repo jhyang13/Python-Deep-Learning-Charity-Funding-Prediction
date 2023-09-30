@@ -33,7 +33,10 @@ This surpassed the target of 75% by 4%, and the model utilized 3,298 parameters.
 
 Deep learning models should employ multiple layers because they enable the model to learn the process of prediction and classification by progressively refining and filtering input information through these layers.
 
-![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/d65e60f5-89b3-4a47-bf9d-4647a6ff0e21)
+![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/d2ad3481-b3dd-4433-a682-47ed926d4a03)
+
+
+
 
 
 
