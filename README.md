@@ -2,8 +2,8 @@
 Jiahui's homework for Module 21
 
 ## Step 1 & 2
-- AlphabetSoupCharity.h5
 - Starter_Code.ipynb
+- AlphabetSoupCharity.h5
 
 ## Step 3
 - AlphabetSoupCharity_Optimization.ipynb
