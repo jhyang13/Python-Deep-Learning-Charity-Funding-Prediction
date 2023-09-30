@@ -19,3 +19,10 @@ The number of hidden nodes was determined by the number of features.
 
 ![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/a85ad66c-ef8b-48c0-9797-f572e358c8bc)
 
+A three-layer training model generated 477 parameters. 
+The initial attempt achieved slightly over 73% accuracy, which fell slightly short of the desired 75% but was still fairly close.
+
+![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/dfb85cf4-f008-4f77-b63e-b3c6195c8f23)
+
+### Optimize the Model
+
