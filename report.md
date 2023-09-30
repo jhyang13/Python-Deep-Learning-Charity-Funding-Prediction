@@ -14,3 +14,8 @@ Categorical variables were encoded using the **get_dummies()** method after conf
 
 ### Compile, Train and Evaluate the Model
 
+Each model, after applying neural networks, consisted of a total of three layers. 
+The number of hidden nodes was determined by the number of features.
+
+![image](https://github.com/jhyang13/ds_bootcamp_module21/assets/98197333/a85ad66c-ef8b-48c0-9797-f572e358c8bc)
+
