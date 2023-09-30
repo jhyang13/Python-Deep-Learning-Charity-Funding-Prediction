@@ -12,3 +12,5 @@ The data was then divided into training and testing sets. The target variable fo
 We conducted an analysis of the **APPLICATION** data, with a focus on the **"CLASSIFICATION"** variable for binning purposes. We established specific data thresholds to group together **"rare"** variables and assigned a new label of **"Other"** for each unique value falling below these thresholds.
 Categorical variables were encoded using the **get_dummies()** method after confirming the success of the binning process.
 
+### Compile, Train and Evaluate the Model
+
