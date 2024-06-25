@@ -1,14 +1,12 @@
 ---
-title: "Module 21 Challenge"
+title: "Charity Funding Predictor"
 ---
-
-<div id="bootcamp"><img style="display: none;" src="https://static.bc-edx.com/data/dl-1-2/m21/lms/img/banner.jpg" alt="lesson banner" />
 
 ### Background
 
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With my knowledge of machine learning and neural networks, I will use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
-From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
+From Alphabet Soup’s business team, I have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
 
 * **EIN** and **NAME**&mdash;Identification columns
 * **APPLICATION_TYPE**&mdash;Alphabet Soup application type
@@ -22,7 +20,7 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 * **ASK_AMT**&mdash;Funding amount requested
 * **IS_SUCCESSFUL**&mdash;Was the money used effectively
 
-### Before You Begin
+### Beginning
 
 1. Create a new repository for this project called `deep-learning-challenge`. **Do not add this Challenge to an existing repository**.
 
