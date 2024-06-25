@@ -24,7 +24,7 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 
 1. Create a new repository for this project called `deep-learning-challenge`.
 
-2. Clone the new repository to your computer.
+2. Clone the new repository to the computer.
 
 3. Inside the local git repository, create a directory for the Deep Learning Challenge.
 
@@ -58,9 +58,9 @@ Start by uploading the starter file to Google Colab, then using the information 
 
 ### Step 2: Compile, Train, and Evaluate the Model
 
-Using the knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. I’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once I’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
+Using the knowledge of TensorFlow, I’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. I’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once I’ve completed that step, I’ll compile, train, and evaluate my binary classification model to calculate the model’s loss and accuracy.
 
-1. Continue using the file in Google Colab in which you performed the preprocessing steps from Step 1.
+1. Continue using the file in Google Colab in which I performed the preprocessing steps from Step 1.
 
 2. Create a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
 
@@ -78,7 +78,7 @@ Using the knowledge of TensorFlow, you’ll design a neural network, or deep lea
 
 9. Evaluate the model using the test data to determine the loss and accuracy.
 
-10. Save and export your results to an HDF5 file. Name the file `AlphabetSoupCharity.h5`.
+10. Save and export my results to an HDF5 file. Name the file `AlphabetSoupCharity.h5`.
 
 ### Step 3: Optimize the Model
 
@@ -119,8 +119,8 @@ The report should contain the following:
   * What variable(s) should be removed from the input data because they are neither targets nor features?
 
 * Compiling, Training, and Evaluating the Model
-  * How many neurons, layers, and activation functions did you select for the neural network model, and why?
+  * How many neurons, layers, and activation functions did I select for the neural network model, and why?
   * Were I able to achieve the target model performance?
-  * What steps did I take in your attempts to increase model performance?
+  * What steps did I take in my attempts to increase model performance?
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain my recommendation.
