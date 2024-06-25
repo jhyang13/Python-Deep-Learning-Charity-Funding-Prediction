@@ -22,31 +22,25 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 
 ### Beginning
 
-1. Create a new repository for this project called `deep-learning-challenge`. **Do not add this Challenge to an existing repository**.
+1. Create a new repository for this project called `deep-learning-challenge`.
 
 2. Clone the new repository to your computer.
 
-3. Inside your local git repository, create a directory for the Deep Learning Challenge.
+3. Inside the local git repository, create a directory for the Deep Learning Challenge.
 
 4. Push the above changes to GitHub.
-
-### Files
-
-Download the following files to help you get started:
-
-[Module 21 Challenge files](https://static.bc-edx.com/data/dl-1-2/m21/lms/starter/Starter_Code.zip)
 
 ### Instructions
 
 ### Step 1: Preprocess the Data
 
-Using your knowledge of Pandas and scikit-learn’s `StandardScaler()`, you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
+Using the knowledge of Pandas and scikit-learn’s `StandardScaler()`, I’ll need to preprocess the dataset. This step prepares me for Step 2, where I'll compile, train, and evaluate the neural network model.
 
 Start by uploading the starter file to Google Colab, then using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.
 
-1. Read in the `charity_data.csv` to a Pandas DataFrame, and be sure to identify the following in your dataset:
-  * What variable(s) are the target(s) for your model?
-  * What variable(s) are the feature(s) for your model?
+1. Read in the `charity_data.csv` to a Pandas DataFrame, and be sure to identify the following in the dataset:
+  * What variable(s) are the target(s) for the model?
+  * What variable(s) are the feature(s) for the model?
 
 2. Drop the `EIN` and `NAME` columns.
 
@@ -64,7 +58,7 @@ Start by uploading the starter file to Google Colab, then using the information 
 
 ### Step 2: Compile, Train, and Evaluate the Model
 
-Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
+Using the knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. I’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once I’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
 
 1. Continue using the file in Google Colab in which you performed the preprocessing steps from Step 1.
 
@@ -88,9 +82,9 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 
 ### Step 3: Optimize the Model
 
-Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
+Using the knowledge of TensorFlow, optimize the model to achieve a target predictive accuracy higher than 75%.
 
-Use any or all of the following methods to optimize your model:
+Use any or all of the following methods to optimize the model:
 
 * Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
   * Dropping more or fewer columns.
@@ -101,118 +95,32 @@ Use any or all of the following methods to optimize your model:
   * Use different activation functions for the hidden layers.
   * Add or reduce the number of epochs to the training regimen.
 
-**Note**: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
-
 1. Create a new Google Colab file and name it `AlphabetSoupCharity_Optimization.ipynb`.
 
-2. Import your dependencies and read in the `charity_data.csv` to a Pandas DataFrame.
+2. Import the dependencies and read in the `charity_data.csv` to a Pandas DataFrame.
 
-3. Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
+3. Preprocess the dataset as I did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
 
 4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
 
-5. Save and export your results to an HDF5 file. Name the file `AlphabetSoupCharity_Optimization.h5`.
+5. Save and export the results to an HDF5 file. Name the file `AlphabetSoupCharity_Optimization.h5`.
 
 ### Step 4: Write a Report on the Neural Network Model
-
-For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
 
 The report should contain the following:
 
 1. **Overview** of the analysis: Explain the purpose of this analysis.
 
-2. **Results**: Using bulleted lists and images to support your answers, address the following questions:
+2. **Results**: Using bulleted lists and images to support the answers, address the following questions:
 
 * Data Preprocessing
-  * What variable(s) are the target(s) for your model?
-  * What variable(s) are the features for your model?
+  * What variable(s) are the target(s) for the model?
+  * What variable(s) are the features for the model?
   * What variable(s) should be removed from the input data because they are neither targets nor features?
 
 * Compiling, Training, and Evaluating the Model
-  * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-  * Were you able to achieve the target model performance?
-  * What steps did you take in your attempts to increase model performance?
+  * How many neurons, layers, and activation functions did you select for the neural network model, and why?
+  * Were I able to achieve the target model performance?
+  * What steps did I take in your attempts to increase model performance?
 
-3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-
-### Step 5: Copy Files Into Your Repository
-
-Now that you're finished with your analysis in Google Colab, you need to get your files into your repository for final submission.
-
-1. Download your Colab notebooks to your computer.
-
-2. Move them into your Deep Learning Challenge directory in your local repository.
-
-3. Push the added files to GitHub.
-
-### Requirements
-
-#### Preprocess the Data (30 points)
-
-* Create a dataframe containing the `charity_data.csv` data , and identify the target and feature variables in the dataset (2 points)
-* Drop the `EIN` and `NAME` columns (2 points)
-* Determine the number of unique values in each column (2 points)
-* For columns with more than 10 unique values, determine the number of data points for each unique value (4 points)
-* Create a new value called `Other` that contains rare categorical variables (5 points)
-* Create a feature array, `X`, and a target array, `y` by using the preprocessed data (5 points)
-* Split the preprocessed data into training and testing datasets (5 points)
-* Scale the data by using a `StandardScaler` that has been fitted to the training data (5 points)
-
-#### Compile, Train and Evaluate the Model (20 points)
-
-* Create a neural network model with a defined number of input features and nodes for each layer (4 points)
-* Create hidden layers and an output layer with appropriate activation functions (4 points)
-* Check the structure of the model (2 points)
-* Compile and train the model (4 points)
-* Evaluate the model using the test data to determine the loss and accuracy (4 points)
-* Export your results to an HDF5 file named `AlphabetSoupCharity.h5` (2 points)
-
-#### Optimize the Model (20 points)
-
-* Repeat the preprocessing steps in a new Jupyter notebook (4 points)
-* Create a new neural network model, implementing at least 3 model optimization methods (15 points)
-* Save and export your results to an HDF5 file named `AlphabetSoupCharity_Optimization.h5` (1 point)
-
-#### Write a Report on the Neural Network Model (30 points)
-
-* Write an analysis that includes a title and multiple sections, labeled with headers and subheaders (4 points)
-* Format images in the report so that they display correction (2)
-* Explain the purpose of the analysis (4)
-* Answer all 6 questions in the results section (10)
-* Summarize the overall results of your model (4)
-* Describe how you could use a different model to solve the same problem, and explain why you would use that model (6)
-
-### Grading
-
-This assignment will be evaluated against the requirements and assigned a grade according to the following table:
-
-| Grade | Points |
-| --- | --- |
-| A (+/-) | 90+ |
-| B (+/-) | 80&ndash;89 |
-| C (+/-) | 70&ndash;79 |
-| D (+/-) | 60&ndash;69 |
-| F (+/-) | < 60 |
-
-### Submission
-
-To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository for grading.
-
-> **Note:** You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next Module.
-
-Comments are disabled for graded submissions in Bootcamp Spot. If you have questions about your feedback, please notify your instructional staff or your Student Success Manager. If you would like to resubmit your work for an additional review, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
-
-> **Important:** **It is your responsibility to include a note in the README section of your repo specifying code source and its location within your repo**. This applies if you have worked with a peer on an assignment, used code in which you did not author or create sourced from a forum such as Stack Overflow, or you received code outside curriculum content from support staff such as an Instructor, TA, Tutor, or Learning Assistant. This will provide visibility to grading staff of your circumstance in order to avoid flagging your work as plagiarized.
->
-> If you are struggling with a Challenge or any aspect of the curriculum, please remember that there are student support services available for you:
->
-> 1. Office hours facilitated by your TA(s)
->
-> 2. Tutor sessions ([sign up](https://tinyurl.com/BootCampTutorTeam))
->
-> 3. Ask the class Slack channel/get peer support
->
-> 4. AskBCS Learning Assistants
-### References
-
-IRS. Tax Exempt Organization Search Bulk Data Downloads. [https://www.irs.gov/](https://www.irs.gov/charities-non-profits/tax-exempt-organization-search-bulk-data-downloads)
+3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain my recommendation.
